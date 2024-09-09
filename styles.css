@@ -43,22 +43,41 @@ main{
 .profile{
     text-align: center;
     font-family: 'Aclonica-Regular', sans-serif;
-    padding: 5px;
+    padding: 25px;
     border: 1px solid red;
 }
 .info-me{
-    /*text-align: center;*/
+
+}
+.avatar{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
 }
 .item-menu{
     display: flex;
+    align-items: center;
     gap: 10px;
     margin: 10px;
     padding: 10px;
     border: 1px solid darkred;
     border-radius: 20px;
 }
+.menu{
+    margin: 30px 50px;
+}
 .follow{
+    padding: 30px;
     border-top: 3px solid black;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+svg{
+    height: 32px;
+    width: 32px;
 }
 
 .dashboard{

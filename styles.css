@@ -21,7 +21,7 @@ body{
 
 .header{
     font-family: 'Salsa-Regular', sans-serif;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
     border: 1px solid red;
     padding: 20px;
@@ -35,9 +35,8 @@ h1{
 
 main{
     display: flex;
-
     border: 2px double darkblue;
-    max-width: 1200px;
+    max-width: 1300px;
     margin: 0 auto;
 }
 .profile{
@@ -81,11 +80,64 @@ svg{
 }
 
 .dashboard{
+    display: flex;
+    flex-direction: column;
+    font-family: 'Salsa-Regular', sans-serif;
     flex-grow: 2;
     background-color: white;
     padding: 5px;
     border: 1px solid red;
 }
+.info-menu,
 .info{
     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    border: 1px solid brown;
+}
+.info-menu{
+    background-color: lightgreen;
+}
+.info{
+    background-color: lightsteelblue;
+}
+.btn{
+    font-family: 'Salsa-Regular', sans-serif;
+    width: 10%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+
+.list{
+    display: flex;
+   justify-content: center;
+    flex-wrap: wrap;
+    border: 1px double black;
+    /*flex-grow: 3;*/
+    gap: 10px 10px;
+}
+.item-note{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+    border: 1px solid brown;
+}
+.btn-note{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-note-edit{
+    width: 10px;
+    height: 10px;
 }

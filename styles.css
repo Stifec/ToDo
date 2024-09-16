@@ -18,6 +18,12 @@ body{
     color: black;
 
 }
+a{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    text-decoration: none;
+}
 
 .header{
     font-family: 'Salsa-Regular', sans-serif;
@@ -40,12 +46,20 @@ main{
     margin: 0 auto;
 }
 .profile{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
     font-family: 'Aclonica-Regular', sans-serif;
     padding: 25px;
     border: 1px solid red;
 }
 .info-me{
+    padding: 0 10px;
+    margin-left: 30px;
+}
+.name{
+    padding: 20px 0;
 
 }
 .avatar{
@@ -54,6 +68,7 @@ main{
     height: 100px;
 }
 .item-menu{
+    /*width: 200px;*/
     display: flex;
     align-items: center;
     gap: 10px;
@@ -63,7 +78,7 @@ main{
     border-radius: 20px;
 }
 .menu{
-    margin: 30px 50px;
+    margin: 10px 50px;
 }
 .follow{
     padding: 30px;
@@ -78,6 +93,8 @@ svg{
     height: 32px;
     width: 32px;
 }
+
+/*  ===========================  NOTES ===============================================*/
 
 .dashboard{
     display: flex;
@@ -144,3 +161,39 @@ svg{
     width: 10px;
     height: 10px;
 }
+
+
+/*    =====================    TODO =========================*/
+
+.btn-todo-edit{
+    margin: 20px 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-add,
+.btn-deleteAll{
+    font-family: 'Salsa-Regular', sans-serif;
+    padding: 5px;
+    border-radius: 20px;
+    background-color: lightsteelblue;
+}
+.item-todo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    background-color: lightgreen;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px brown;
+
+}
+
+/*  ======================  CONTACT US ================================*/
+
+
+/* ======================== ABOUT ========================================*/
+
+
+/* =========================  SETTING ======================================*/

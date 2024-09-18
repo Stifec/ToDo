@@ -94,6 +94,18 @@ svg{
     width: 32px;
 }
 
+footer{
+    text-align: center;
+}
+.copy{
+    font-family: 'Salsa-Regular', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+
+}
+
 /*  ===========================  NOTES ===============================================*/
 
 .dashboard{
@@ -197,3 +209,7 @@ svg{
 
 
 /* =========================  SETTING ======================================*/
+
+
+/*  =================== INDEX  ==============================================*/
+

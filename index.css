@@ -1,0 +1,182 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Salsa-Regular;
+    src: url("/fonts/Salsa-Regular.ttf");
+}
+body{
+    background-color: rgba(144, 238, 144, 0.3);
+}
+
+.body-mod{
+    overflow: hidden;.
+}
+
+:root {
+
+    --background-body: #e1d4c9;
+
+    --background-backdrop: rgba(64, 63, 61, 0.8);
+
+}
+
+.header{
+    font-family: 'Salsa-Regular', sans-serif;
+    font-size: 32px;
+    color: blue;
+    max-width: 1300px;
+    margin: 0 auto;
+    /*border: 1px solid red;*/
+    padding: 20px;
+}
+
+
+.index-main{
+    height: 600px;
+    background-image: url("./images/notes1.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    /*border: 2px double darkblue;*/
+    border-radius: 10px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+.enter{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+.btn-singIn{
+    font-family: 'Salsa-Regular', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    color: red;
+    background-color: lightgreen;
+    border-radius: 20px;
+    box-shadow: 10px 10px 30px red;
+
+    padding: 10px 30px;
+}
+.btn-singIn:hover{
+    color: green;
+    box-shadow: 5px 5px 5px green;
+}
+
+footer{
+    text-align: center;
+}
+.copy{
+    font-family: 'Salsa-Regular', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+
+}
+
+/*    REGISTRATION  */
+
+.backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-backdrop);
+}
+
+.backdrop.is-hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    max-width: 640px;
+    height: 100%;
+    max-height: 504px;
+    padding: 16px;
+    border-radius: 40px;
+    background: var(--background-body, #e1d4c9);
+}
+
+
+/* ====      FORM  ==============*/
+
+form {
+    border: 1px solid #c6c7cc;
+    border-radius: 5px;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    overflow: hidden;
+    width: 600px;
+}
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+input {
+    border-radius: 5px;
+    font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin: 0;
+}
+.user-info {
+    padding: 20px;
+    text-align: start;
+}
+.user-info label {
+    color: #395870;
+    display: block;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.user-info input {
+    background: #fff;
+    border: 1px solid #c6c7cc;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .1);
+    color: #636466;
+    padding: 6px;
+    margin-top: 6px;
+    width: 100%;
+}
+.account-action {
+    display: flex;
+    flex-direction: column;
+    background: #f0f0f2;
+    border-top: 1px solid #c6c7cc;
+    margin-top: 20px;
+    padding: 20px;
+}
+.btn-modal-close {
+    width: 100px;
+    background: linear-gradient(#49708f, #293f50);
+    border: 0;
+    color: #fff;
+    cursor: pointer;
+    font-weight: bold;
+
+    margin: 10px 250px;
+    padding: 8px 16px;
+}
+.account-action label {
+    color: #7c7c80;
+    font-size: 12px;
+    float: left;
+    margin: 10px 0 0 20px;
+}

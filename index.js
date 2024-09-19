@@ -1,12 +1,9 @@
 
 
-const imain =document.querySelector('.index-main')
+
 const btn = document.querySelector('.btn-singIn');
-btn.addEventListener("click", (e) => {
-    // mod.style.background = "blue";
-    // imain.style.background = "blue";
-    toggleModal()
-});
+
+btn.addEventListener("click", (e) => { toggleModal() });
 
 
 // ================== MODAL ==============

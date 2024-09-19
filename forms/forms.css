@@ -11,98 +11,27 @@
 body{
     background-color: rgba(144, 238, 144, 0.3);
 }
-
-.body-mod{
-    overflow: hidden;.
-}
-
-:root {
-
-    --background-body: #e1d4c9;
-
-    --background-backdrop: rgba(64, 63, 61, 0.8);
-
-}
-a{
-    text-decoration: none;
-}
 .header{
     font-family: 'Salsa-Regular', sans-serif;
-    font-size: 32px;
-    color: blue;
     max-width: 1300px;
     margin: 0 auto;
-    /*border: 1px solid red;*/
+    border: 1px solid red;
     padding: 20px;
 }
 
-
-.index-main{
-    height: 600px;
-    background-image: url("./images/notes1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    /*border: 2px double darkblue;*/
-    border-radius: 10px;
-    max-width: 1300px;
-    margin: 0 auto;
-}
-.enter{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    margin-top: 50px;
-    margin-left: 150px;
-}
-.btn-singIn{
-    font-family: 'Salsa-Regular', sans-serif;
-    font-size: 24px;
+h1{
     font-weight: bold;
-    color: red;
-    background-color: lightgreen;
-    border-radius: 20px;
-    box-shadow: 10px 10px 30px red;
-
-    padding: 10px 30px;
-}
-.btn-singIn:hover{
-    color: green;
-    box-shadow: 5px 5px 5px green;
-}
-
-footer{
-    text-align: center;
-}
-.copy{
-    font-family: 'Salsa-Regular', sans-serif;
-    font-size: 24px;
-    font-weight: bold;
-    font-style: italic;
+    font-size: 32px;
     color: blue;
-
+}
+h2{
+    font-size: 32px;
+    font-weight: bold;
+    color: darkgreen;
 }
 
-/*    REGISTRATION  */
+/* ===========================================================================*/
 
-.backdrop {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--background-backdrop);
-}
-
-.backdrop.is-hidden {
-    opacity: 0;
-    visibility: hidden;
-    pointer-events: none;
-}
 
 .modal {
     display: flex;
@@ -186,4 +115,18 @@ input {
     font-size: 12px;
     float: left;
     margin: 10px 0 0 20px;
+}
+
+/*   ================================= FOOTER ===================================== */
+
+footer{
+    text-align: center;
+}
+.copy{
+    font-family: 'Salsa-Regular', sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    color: blue;
+
 }

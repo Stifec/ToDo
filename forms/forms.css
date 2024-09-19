@@ -14,8 +14,10 @@ body{
 .header{
     font-family: 'Salsa-Regular', sans-serif;
     max-width: 1300px;
+    text-align: center;
     margin: 0 auto;
-    border: 1px solid red;
+
+    /*border: 1px solid red;*/
     padding: 20px;
 }
 
@@ -29,9 +31,19 @@ h2{
     font-weight: bold;
     color: darkgreen;
 }
+a{
+    text-decoration: none;
+}
 
 /* ===========================================================================*/
 
+.backdrop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-backdrop);
+    margin: 50px 0;
+}
 
 .modal {
     display: flex;
@@ -65,6 +77,11 @@ input {
     border-radius: 5px;
     font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
     margin: 0;
+}
+.newUser{
+    display: flex;
+    justify-content: space-evenly;
+
 }
 .user-info {
     padding: 20px;
@@ -115,6 +132,9 @@ input {
     font-size: 12px;
     float: left;
     margin: 10px 0 0 20px;
+}
+.nowreg{
+    text-align: center;
 }
 
 /*   ================================= FOOTER ===================================== */

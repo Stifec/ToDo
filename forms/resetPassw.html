@@ -12,38 +12,34 @@
     <h1>Notebooks</h1>
 </header>
 <main>
-    <h2>RESET PASSWORD</h2>
+
     <div class="backdrop is-hidden">
         <div class="modal">
-            <h2>Sign in to your account</h2>
+            <h2>Reset your password</h2>
             <form id="registrationForm">
                 <fieldset class="user-info">
 
                     <div>
                         <label for="email">E-mail:</label>
-                        <input type="email" id="email" name="email"  placeholder="E-mail" required>
+                        <input type="email" id="email" name="email"  placeholder="Enter your E-mail" required>
                     </div>
                     <div>
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password"  placeholder="password" required>
+                        <label for="newPassword">New password:</label>
+                        <input type="password" id="newPassword" name="newPassword"  placeholder="Enter your password" required>
+                    </div>
+                    <div>
+                        <label for="password">Confirm password:</label>
+                        <input type="password" id="password" name="password"  placeholder="Enter your password" required>
                     </div>
 
                 </fieldset>
                 <fieldset class="account-action">
 
-                    <div class="remember">
-                        <label>
-                            <input type="checkbox" name="question" required>
-                            Remember me
-                        </label>
-                        <div class="forgot">
-                            <a href="./forms/resetPassw.html">Forgot password?</a>
-                        </div>
-                    </div>
-                    <button class="btn-modal-close" type="submit"><a href="notes.html"> Log in to your account</a></button>
+
+                    <button class="btn-modal-close" type="submit"><a href="notes.html"> Reset your password</a></button>
                     <div class="nowreg">
-                        <p>Don't have an account yet?</p>
-                        <a href="./forms/createProf.html">Sign up here</a>
+
+                        <a href="../index.html">Return to Login page</a>
                     </div>
                 </fieldset>
             </form>

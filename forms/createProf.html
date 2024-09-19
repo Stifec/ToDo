@@ -12,37 +12,45 @@
     <h1>Notebooks</h1>
 </header>
 <main>
-    <h2>CREATE YOUR ACCOUNT</h2>
+<!--    <h2>CREATE YOUR ACCOUNT</h2>-->
     <div class="backdrop is-hidden">
         <div class="modal">
-            <h2>Sign in to your account</h2>
+            <h2>Create your account</h2>
             <form id="registrationForm">
-                <fieldset class="user-info">
+                <fieldset class="newUser user-info">
 
                     <div>
-                        <label for="email">E-mail:</label>
-                        <input type="email" id="email" name="email"  placeholder="E-mail" required>
+                        <label for="name">Full name:</label>
+                        <input type="text" id="name" name="name"  placeholder="Enter your name" required>
+<!--                    </div>-->
+<!--                    <div>-->
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email"  placeholder="Enter your email" required>
+<!--                    </div>-->
+<!--                    <div>-->
+                        <label for="newPassword">Password:</label>
+                        <input type="password" id="newPassword" name="newPassword"  placeholder="Enter your password" required>
                     </div>
+
                     <div>
-                        <label for="password">Password:</label>
-                        <input type="password" id="password" name="password"  placeholder="password" required>
+                        <label for="username">User name:</label>
+                        <input type="text" id="username" name="username"  placeholder="Enter your username" required>
+<!--                    </div>-->
+<!--                    <div>-->
+                        <label for="phone">Phone:</label>
+                        <input type="number" id="phone" name="phone"  placeholder="Enter your phone number" required>
+<!--                    </div>-->
+<!--                    <div>-->
+                        <label for="password">Confirm password:</label>
+                        <input type="password" id="password" name="password"  placeholder="Enter your password" required>
                     </div>
 
                 </fieldset>
                 <fieldset class="account-action">
 
-                    <div class="remember">
-                        <label>
-                            <input type="checkbox" name="question" required>
-                            Remember me
-                        </label>
-                        <div class="forgot">
-                            <a href="./forms/resetPassw.html">Forgot password?</a>
-                        </div>
-                    </div>
-                    <button class="btn-modal-close" type="submit"><a href="notes.html"> Log in to your account</a></button>
+                    <button class="btn-modal-close" type="submit"><a href="notes.html"> Create new account </a></button>
                     <div class="nowreg">
-                        <p>Don't have an account yet?</p>
+                        <p>Already have an account yet?</p>
                         <a href="./forms/createProf.html">Sign up here</a>
                     </div>
                 </fieldset>

@@ -158,6 +158,52 @@ fieldset {
     text-align: center;
 }
 
+/* ====================== PROFILE ====================================================*/
+.profile-one{
+    margin-left: 50px;
+}
+
+.account{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    width: 300px;
+    background: #c6c7cc;
+    /*margin-left: 0px;*/
+
+}
+.account img{
+    width: 100px;
+    height: 100px;
+
+}
+.user{
+    flex-grow: 2;
+    margin-left: 20px;
+    padding: 20px;
+    background: darkseagreen;
+}
+.user-info-one{
+    max-width: 800px;
+    display: flex;
+    gap: 50px;
+    margin-left: 200px;
+    padding: 20px;
+    border: 5px solid darkred;
+    background: aqua;
+}
+.info-user{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.userInfo{
+    display: flex;
+    gap: 40px;
+
+}
+
 /*   ================================= FOOTER ===================================== */
 
 footer{

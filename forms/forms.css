@@ -159,8 +159,21 @@ fieldset {
 }
 
 /* ====================== PROFILE ====================================================*/
+
+.main{
+    margin: 0 auto;
+    text-align: center;
+}
+h5{
+
+    font-size: 16px;
+    padding: 16px;
+    /*text-align: center;*/
+}
+
 .profile-one{
     margin-left: 50px;
+    text-align: left;
 }
 
 .account{
@@ -170,7 +183,7 @@ fieldset {
     gap: 20px;
     width: 300px;
     background: #c6c7cc;
-    /*margin-left: 0px;*/
+    padding: 20px 0;
 
 }
 .account img{
@@ -178,17 +191,35 @@ fieldset {
     height: 100px;
 
 }
+.btn{
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Salsa-Regular', sans-serif;
+    font-size: 14px;
+}
+.btn:hover{
+    background: lightgreen;
+}
+
 .user{
     flex-grow: 2;
     margin-left: 20px;
     padding: 20px;
     background: darkseagreen;
+    font-family: 'Salsa-Regular', sans-serif;
+
+    text-align: center;
 }
 .user-info-one{
     max-width: 800px;
     display: flex;
     gap: 50px;
-    margin-left: 200px;
+    /*margin-left: 200px;*/
+    margin: 0 auto;
     padding: 20px;
     border: 5px solid darkred;
     background: aqua;
@@ -196,17 +227,25 @@ fieldset {
 .info-user{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 16px;
+
+}
+.mainInfo{
+    font-weight: bold;
+    font-size: 18px;
 }
 .userInfo{
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
+    gap: 140px;
+    font-family: 'Salsa-Regular', sans-serif;
 
 }
 
 /*   ================================= FOOTER ===================================== */
 
 footer{
+    margin-top: 20px;
     text-align: center;
 }
 .copy{

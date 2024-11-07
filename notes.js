@@ -1,28 +1,17 @@
-// ======================== Add notes ==============
-let notes = [];
-const createNote = document.querySelector('.btn-create-note');
-
-notes.forEach((elem) => {
-    console.log(elem);
-});
-
-createNote.addEventListener('click',()=>{
-    notes.push(90);
-    console.log(notes);
-    }
-
-)
 
 // ============== Open database ============
-
+openData(readNote)
 let db;
-const openOrCreateDB = window.indexedDB.open('todo_db', 1);
+function openData(dat) {
 
-openOrCreateDB.onsuccess = function (e) {
-    db = e.target.result;
-    console.log('База открыта>>>>', db)
-    readNote();
-}
+    const openOrCreateDB = window.indexedDB.open('todo_db', 1);
+
+    openOrCreateDB.onsuccess = function (e) {
+        db = e.target.result;
+        console.log('База открыта>>>>', db)
+        dat();
+    }
+  }
 
 // =========== READ database =================
 const todos = document.querySelector('ol');

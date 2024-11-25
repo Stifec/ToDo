@@ -156,7 +156,7 @@ footer{
 }
 .item-note{
     width: 300px;
-    height: 100px;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 10px;

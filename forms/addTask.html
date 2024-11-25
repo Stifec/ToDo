@@ -2,32 +2,72 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="forms.css">
     <title>Add Task and Note</title>
 </head>
-<body>
+<body class="body">
+<header class="header">
+    <h1>Notebooks</h1>
+</header>
+<main>
+    <div class="backdrop is-hidden">
+        <div class="modal addNote">
+            <h2>Add Note</h2>
+            <form id="registrationForm">
+                <fieldset class="user-info">
 
-    <aside class="addNote">
-        <h2>Add Note</h2>
-        <form>
-            <div>
-                <label for="titleNote">Todo title</label>
-                <input id="titleNote" type="text" required>
-            </div>
-            <div>
-                <label for="descNote">Todo description</label>
-                <input id="descNote" type="text" required>
-            </div>
-            <div>
-                <button>Save </button>
-            </div>
-        </form>
+                    <div>
+                        <label for="titleNote">Todo title</label>
+                        <input id="titleNote" type="text" required>
+                    </div>
+                    <div>
+                        <label for="descNote">Todo description</label>
+                        <input id="descNote" type="text" required>
+                    </div>
+                    <div>
+                        <label for="selectData">Data today</label>
+                        <input id="selectData" type="date" required>
+                    </div>
 
-        <a href="../notes.html">Loading</a>
-    </aside>
-    <div class="list">
 
+
+                </fieldset>
+                <fieldset class="account-action">
+
+
+                    <button class="btn-modal-close" type="submit">SAVE</button>
+                    <div class="nowreg">
+
+                        <a href="../notes.html">Return note page</a>
+                    </div>
+                </fieldset>
+            </form>
+        </div>
     </div>
+<!--    <aside class="addNote">-->
+<!--        <h2>Add Note</h2>-->
+<!--        <form>-->
+<!--            <div>-->
+<!--                <label for="titleNote">Todo title</label>-->
+<!--                <input id="titleNote" type="text" required>-->
+<!--            </div>-->
+<!--            <div>-->
+<!--                <label for="descNote">Todo description</label>-->
+<!--                <input id="descNote" type="text" required>-->
+<!--            </div>-->
+<!--            <div>-->
+<!--                <button>Save </button>-->
+<!--            </div>-->
+<!--        </form>-->
 
+<!--        <a href="../notes.html">Loading</a>-->
+<!--    </aside>-->
+
+    <div class="list">    </div>
+</main>
+<footer>
+    <span class="copy">© 2024</span>
+</footer>
 <script src="addTask.js"></script>
 
 </body>
